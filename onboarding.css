@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #1c1f24;
+  color: #e6e6e6;
+}
+
+/* LOGO SECTION */
+.logo-box-outer {
+  height: 30rem;
+  width: 100vw;
+}
+.logo-box-inner {
+  width: 100vw;
+}
+.logo-box-content {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  height: auto;
+  width: 50rem;
+}
+
+/* CALL TO ACTION */
+.cta-box-outer {
+  height: 20rem;
+  width: 100vw;
+}
+.cta-box-inner {
+  width: 100vw;
+}
+.cta-box-content {
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.top-title {
+  font-size: 3rem;
+}
+.cta {
+  padding-top: 10px;
+  font-size: 1.8rem;
+}
+.price {
+  padding-top: 8px;
+  font-size: 1.8rem;
+  padding-bottom: 20px;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  height: 5rem;
+  width: 20rem;
+  font-size: 1.8rem;
+  background: #e8f0ff;
+}
+.btn:hover {
+  background: #2f6bbf;
+}
