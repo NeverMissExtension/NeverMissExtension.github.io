@@ -12,7 +12,7 @@ const restoredCustomerId = urlParams.get("customer_id");
 
 // Restore flow (existing subscriber)
 if (restoredCustomerId) {
-  localStorage.setItem("customerId", restoredCustomerId);
+  chrome.storage.sync.set({ customerId: restoredCustomerId });;
   console.log("Restored customer ID:", restoredCustomerId);
 }
 
@@ -21,7 +21,7 @@ else if (sessionId) {
   fetch(`https://nevermissbackend.onrender.com/session-info/${sessionId}`)
     .then((res) => res.json())
     .then((data) => {
-      localStorage.setItem("customerId", data.customerId);
+      chrome.storage.sync.set({ customerId: data.customerId });
       console.log("Saved customer ID:", data.customerId);
     })
     .catch((err) => console.error("Failed to fetch session info:", err));
