@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #1c1f24;
+  color: #e6e6e6;
+}
+.title-box-outer {
+  height: 30rem;
+  width: 100vw;
+}
+.title-box-inner {
+  height: 100%;
+  width: 100%;
+}
+.title-box-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.title {
+  font-size: 5rem;
+  margin-bottom: 10px;
+}
+
+.direct-box-outer {
+  height: 5rem;
+  width: 100vw;
+}
+.direct-box-inner {
+  height: 100%;
+  width: 100%;
+}
+.direct-box-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.direction {
+  font-size: 2rem;
+}
+
+.entry-box-outer {
+  height: 5rem;
+  width: 100%;
+}
+.entry-box-inner {
+  height: 100%;
+  width: 100%;
+}
+.entry-box-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.email-box {
+  width: 25rem;
+  height: 2.5rem;
+  padding-left: 5px;
+}
+
+.btn-box-outer {
+  height: 5rem;
+  width: 100vw;
+}
+.btn-box-inner {
+  height: 100%;
+  width: 100%;
+}
+.btn-box-content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.restore {
+  width: 10rem;
+  height: 2.5rem;
+  border: none;
+  border-radius: 5px;
+  background: #e8f0ff;
+}
+.restore:hover {
+  background: #2f6bbf;
+}
