@@ -21,7 +21,8 @@ else if (sessionId) {
   fetch(`https://nevermissbackend.onrender.com/session-info/${sessionId}`)
     .then((res) => res.json())
     .then((data) => {
-      localStorage.setItem("customerId", restoredCustomerId);
+      // FIXED: Save data.customerId, not restoredCustomerId
+      localStorage.setItem("customerId", data.customerId); 
       console.log("Saved customer ID:", data.customerId);
     })
     .catch((err) => console.error("Failed to fetch session info:", err));
