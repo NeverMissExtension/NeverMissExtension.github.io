@@ -1,7 +1,7 @@
 "use strict";
 
 const stripe = Stripe(
-  "pk_live_51JBQgYHetP8DM1qkargpRYJLV0avGvfrkhWjwdo9D7ETyJDl2OkVLCNCkzX4loIaz1nvKVBDAnqbkezLCEmAWhd300REWdXvgH",
+  "pk_test_51JBQgYHetP8DM1qkVBYUQCa3mvtECzRJezt82Cr5awqvjZX1SOv44Edm70ZYHDLq4r67LZFyLdOdPF0roisdkREu00ABUQ2HSb",
 ); // your publishable key
 
 document.querySelector(".btn").addEventListener("click", async () => {
